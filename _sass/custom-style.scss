@@ -1,0 +1,19 @@
+// global colour variables
+
+$custom-red: #c0392b;
+$custom-teal: #336E7B;
+$custom-blue: #2c3e50;
+
+// navbar header
+
+h1.site-title a,
+.site-header a,
+nav a.nav-link {
+  color: $custom-blue;
+}
+
+h1.site-title a:hover,
+.site-header a:hover,
+nav a.nav-link:hover  {
+  color: $custom-teal;
+}
