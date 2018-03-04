@@ -77,3 +77,16 @@ hr.star-light:after {
       font-size: 1.5em;
     }
   }
+
+// footer
+
+.site-footer {
+  font-size: 0.75em;
+}
+
+.site-footer a {
+  color: $custom-blue;
+}
+.site-footer a:hover {
+  color: $custom-teal;
+}
