@@ -10,13 +10,6 @@ theme_settings:
   favicon: assets/favicon.ico
   description: "The personal website of Andrew Hercules" # used by search engines
 
-  # Header and footer text
-  header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-
   # Icons
   rss: true
   email_address: "andrewhercules@gmail.com"
@@ -31,7 +24,6 @@ theme_settings:
   portfolio: true
   search: true
   tags: true
-
 
   # Localization strings
   str_follow_on: "Follow on"
