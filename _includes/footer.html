@@ -1,13 +1,50 @@
-{% if site.theme_settings.footer_text %}
 <footer class="site-footer">
-    <p class="text">{{ site.theme_settings.footer_text }}</p>
-            <div class="footer-icons">
-                <ul>
-                <!-- Social icons from Font Awesome, if enabled -->
-                {% include icons.html %}
-                </ul>
-            </div>
+  <p class="text">
+    Design based on the <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> theme.
+    The source code is available on <a href="https://github.com/andrewhercules/andrewhercules.github.io">GitHub</a>.
+  </p>
+  <div class="footer-icons">
+    <ul>
+      {% if site.theme_settings.rss %}
+      <li>
+        <a href="{{ site.url }}//{{ site.baseurl }}//feed.xml" title="{{ site.theme_settings.str_rss_follow }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.theme_settings.email_address %}
+      <li>
+        <a href="mailto:{{ site.theme_settings.email_address }}" title="{{ site.theme_settings.str_email }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.theme_settings.github %}
+      <li>
+        <a href="https://github.com/{{ site.theme_settings.github }}" title="{{ site.theme_settings.str_follow_on }} GitHub">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.theme_settings.linkedin %}
+      <li>
+        <a href="{{ site.theme_settings.linkedin }}" title="{{ site.theme_settings.str_follow_on }} LinkedIn">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
 </footer>
-{% endif %}
-
-
