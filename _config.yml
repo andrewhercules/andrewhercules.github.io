@@ -1,0 +1,10 @@
+baseurl: ""
+url: ""
+
+permalink: pretty
+
+# Portfolio
+collections:
+  portfolio:
+    output: true
+    
