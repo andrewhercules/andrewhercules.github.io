@@ -372,3 +372,22 @@ footer .footer-below {
   display: none;
   opacity: 0;
 }
+
+.add-margin-top {
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .add-margin-top {
+    margin-top: 50px;
+  }
+
+}
+
+@media (min-width: @screen-md-lg) {
+  
+
+
+}
+
