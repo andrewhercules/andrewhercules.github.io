@@ -10,3 +10,11 @@ collections:
 
 # Navigation on posts and portfolio items
 post_navigation: true
+
+#Pagination
+paginate: 5
+paginate_path: "/blog/page:num"
+
+
+# Plugins
+plugins: [jekyll-paginate]
