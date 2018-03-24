@@ -7,4 +7,6 @@ permalink: pretty
 collections:
   portfolio:
     output: true
-    
+
+# Navigation on posts and portfolio items
+post_navigation: true
