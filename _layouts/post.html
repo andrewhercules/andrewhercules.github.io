@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<<<<<<< HEAD
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
@@ -11,3 +12,33 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
 </article>
+=======
+
+<div class="container">
+  <section>
+    <div class="row add-margin-top">
+      <div class="col-lg-12 text-center">
+        <h2>{{ page.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        {{ content }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+        {% include tags.html tags=tag_list %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        {% if site.post_navigation %}
+          {% include post-nav.html %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</div>
+>>>>>>> redesign

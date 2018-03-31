@@ -1,64 +1,20 @@
-# SITE CONFIGURATION
 baseurl: ""
 url: ""
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: Andrew Hercules
-  avatar: assets/img/profile.png
-  favicon: assets/favicon.ico
-  description: "The personal website of Andrew Hercules" # used by search engines
+permalink: pretty
 
-  # Icons
-  rss: true
-  email_address: "andrewhercules@gmail.com"
-  github: "andrewhercules"
-  linkedin:  "https://www.linkedin.com/in/andrewhercules/"
-  twitter: "andrewhercules"
-
-  # Scripts / Features
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
-  katex: true # Enable if using math markup
-  portfolio: true
-  search: true
-  tags: true
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: true
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# PORTFOLIO
+# Portfolio
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:name
 
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-# theme: type-on-strap # If using the theme as a jekyll theme gem
-# exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
+# Navigation on posts and portfolio items
+post_navigation: true
+
+#Pagination
+paginate: 5
+paginate_path: "/blog/page:num"
+
+
+# Plugins
+plugins: [jekyll-paginate]
