@@ -1,29 +1,31 @@
---- 
-layout: default 
+---
+layout: default
 ---
 
-<section id="about">
+<section id="portfolio">
   <div class="container">
-    <div class="row add-margin-top">
+    <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
-        <hr class="star-primary">
+        <h1 class="page-name">Portfolio</h1>
+        <hr class="h1-underline">
       </div>
     </div>
     <div class="row">
       {% for item in site.portfolio %}
-      <div class="col-sm-4 col-xs-4 portfolio-item">
-        <a href="{{ site.baseurl }}{{ item.url }}">
-          
-          {{ item.title }}
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
+          <div class="caption" title="{{ item.title }}">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="portfolio-item-img" src="/{{ item.img }}" alt="{{ item.img-alt }}">
         </a>
+        <div class="text-center">
+          <p>{{ item.title }}</p>
+        </div>
       </div>
       {% endfor %}
     </div>
   </div>
 </section>
-
-
-
-
-
