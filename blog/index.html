@@ -1,17 +1,13 @@
 ---
-<<<<<<< HEAD
-layout: blog-index
----
-=======
 layout: default
 ---
 
 <section id="blog">
   <div class="container">
-    <div class="row add-margin-top">
+    <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Blog</h2>
-        <hr class="star-primary">
+        <h1 class="page-name">Blog</h1>
+        <hr class="h1-underline">
       </div>
     </div>
     <div class="row">
@@ -37,19 +33,27 @@ layout: default
           </div>
           {% endfor %}
         </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center" id="paginator-block">
+      <div class="col col-lg-4 text-center">
         {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-            <i class="fa fa-chevron-left"></i>
-            Newer Posts
-          </a>
-          {% endif %}
+        <div>
           {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-            Older Posts
-            <i class="fa fa-chevron-right"></i>
-          </a>
+          <button class="btn btn-light">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              <i class="fa fa-chevron-left"></i>
+              Older Posts
+            </a>
+          </button>
+          {% endif %}
+          {% if paginator.previous_page %}
+          <button class="btn btn-light">
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              Newer Posts
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </button>
           {% endif %}
         </div>
         {% endif %}
@@ -57,4 +61,3 @@ layout: default
     </div>
   </div>
 </section>
->>>>>>> redesign
