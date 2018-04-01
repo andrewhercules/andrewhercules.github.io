@@ -11,6 +11,7 @@ dark blue/teal #18435A
   color: #13293D;
 }
 
+
 body {
 box-sizing: border-box;
 min-height: 100vh;
@@ -174,7 +175,33 @@ p.breadcrumb-nav {
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
-div#paginator-block {
+div.paginator-block {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+/* Post page */
+
+div#post-nav {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.post-nav-post {
+  padding: 25px 10px;
+}
+.post-nav-post p {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.post-nav-post a {
+  color: #3E92CC;
+}
+
+#post-medium-link-text {
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px 0px;
 }
