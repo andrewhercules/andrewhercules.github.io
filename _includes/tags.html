@@ -1,17 +1,12 @@
-{% assign tags = include.tags | split:'|' | sort | uniq %}
+{% assign tags = include.tags | split:'|' | uniq %}
 
 {% if include.tags.size > 0 %}
 <div>
-  <div class="tag-list">
-    {% if include.tags.size == 1 %}
-    <div class="meta">Tag</div>
-    {% elsif include.tags.size > 1 %}
-    <div class="meta">Tags</div>
-    {% endif %}
+  <div class="tag-list text-center">
     {% for tag in tags %}
-    <button type="button" class="btn btn-primary">
-      <p><i class="fa fa-tag fa-fw"></i> {{ tag }}</p>
-    </button>
+    <div class="individual-tag">
+      <p class="tag-text">{{ tag }}</p>
+    </div>
     {% endfor %}
   </div>
 </div>
