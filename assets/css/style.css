@@ -1,0 +1,75 @@
+/*
+Colour codes:
+medium navy #16324F
+dark navy #13293D
+dark blue/teal #18435A
+
+*/
+
+* {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  color: #13293D;
+}
+
+body {
+box-sizing: border-box;
+min-height: 100vh;
+margin: 0;
+border-bottom: solid 5px #13293D;
+}
+/* index page */
+
+#index-name {
+  font-size: 4em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#index-skills {
+  font-size: 1.75em;
+}
+
+/* navbar */
+
+nav {
+  margin-bottom: 50px;
+}
+
+.bg-navy {
+    background-color: #16324F;
+}
+
+
+/* avatar */
+
+img#avatar-img {
+  margin: 50px 0px 50px 0px;
+}
+
+.h1-underline {
+  margin: 25px auto;
+    padding: 0;
+    max-width: 250px;
+    border-top: solid  5px;
+    text-align: center;
+}
+
+/* header styles */
+
+h1.page-name {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+p.page-text {
+  font-size: 1.25em;
+}
+
+a.external-link {
+  color: #3E92CC;
+}
+
+
+.ico-link:hover {
+  color: #3E92CC;
+}
