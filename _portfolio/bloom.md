@@ -1,14 +1,19 @@
 ---
-layout: post
+layout: portfolio-item
 title: UOL Bloom
 client: University of London
 tags: [User Research, User Experience Design, Usability Testing, Service Design, Brand Design, Digital Strategy, Content Marketing]
+img: assets/img/portfolio/bloom.png
 ---
 
-Lorem ipsum dolor sit amet, dicta feugiat fabellas sed an, hinc reque nihil nam at. Ut case dicunt pri, no tale oporteat senserit sed, velit cetero eos ad. Quas consulatu cum id, adolescens adipiscing assueverit at vel. Usu ex tritani deleniti ocurreret.
+[Bloom](https://bloom.london.ac.uk/about) is a flexible, reliable, and customisable e-learning solution developed by the Software Services team at the University of London (UoL). More than 3 million users at 90+ colleges, universities, and education/training institutions use it to support and enhance their learning experience.
 
-Eu mel mazim veniam scripta, ex voluptua pericula pro. No per sale expetenda interpretaris, mel in integre laoreet. Et eius legimus patrioque ius, at eam civibus cotidieque. Et sed quas officiis, ad eam dignissim vulputate adolescens. Vix malorum molestie ad, ad pri tale qualisque, no nonumy verterem rationibus per. Ut partem complectitur est.
+In March 2016, I began working on a project to research and redesign the user experience and user interface. The goal of the project was to create an "out-of-the-box" service offering that meets the needs of all users - from students and lecturers to learning technologists and administrative staff.
 
-Justo labores voluptaria id vim, qui saperet pertinacia id, eu usu eius sale urbanitas. Cum in iracundia abhorreant, cum te cibo mentitum. Te cum docendi eleifend, nulla vitae iudicabit ne mea, usu honestatis scripserit id. Ut unum signiferumque his. Te mei impetus constituto expetendis, id has alienum atomorum consectetuer, eos in scaevola perpetua. Porro suscipit appetere ad eam. Odio civibus tincidunt ei vim, mel in latine civibus constituto.
+I utilised a range of quantitative and qualitative research methods - including competitor analysis, academic literature review, one-to-one interviews, focus groups, and surveys - to better understand how users are currently using Bloom and other virtual learning environments. Alongside my colleagues [Petya Stoyanova](https://petantse.github.io/petya_stoyanova/) and [Flora Bowden](https://www.linkedin.com/in/flora-bowden-0a3981a7/), we analysed our research findings, generated actionable insights, and created various research and design artefacts, including:
 
-In mea diam doctus eloquentiam, quis alia phaedrum pro cu, eu vide veniam consulatu mea. Vix ea perfecto inimicus forensibus, zril integre ne mel, te vix liber blandit dignissim. Ea his denique copiosae, id timeam instructior est, affert periculis constituto mel et. Probo accusata vix an. Everti maiorum probatus pri no, dicat invenire consulatu nam ei.
+* [Personas](/assets/docs/portfolio/bloom/bloom_sample_personas.pdf) for student, lecturer, and learning technologist users
+* User journeys for both [mobile](/assets/docs/portfolio/bloom/bloom_sample_user_journey_mobile.pdf) and [desktop/laptop](/assets/docs/portfolio/bloom/bloom_sample_user_journey_desktop.pdf) devices
+* [Low-fidelity wireframes](/assets/docs/portfolio/bloom/bloom_sample_low_fidelity_dashboard_wireframe.pdf) and [high-fidelity mockups](/assets/docs/portfolio/bloom/bloom_high_fidelity_mockups.pdf) for a redesigned user interface and dashboard
+
+In addition, we also authored a white paper, [Top 5 Research Findings: The Student Experience With Moodle](/assets/docs/portfolio/bloom/bloom_research_whitepaper.pdf) and a [magazine article for Education Technology](/assets/docs/portfolio/bloom/bloom_ed_tech_magazine_article.pdf). We also presented our insights and design artefacts to numerous groups and in December 2016, we were invited by MUGGL (Moodle User Group Greater London) to [present a lecture and Q&A session](/assets/docs/portfolio/bloom/bloom_muggl_meeting_presentation.pdf) during their quarterly meeting.
