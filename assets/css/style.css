@@ -81,7 +81,6 @@ a.post-link {
   color: #3E92CC;
 }
 
-
 .ico-link:hover {
   color: #3E92CC;
 }
@@ -213,4 +212,10 @@ div#post-nav {
 #post-medium-link-text {
   background-color: rgba(0,0,0,0.1);
   padding: 10px 0px;
+}
+
+/* Contact page */
+
+#contact-icon-row-wrapper {
+  margin-top: 25px;
 }
