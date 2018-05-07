@@ -18,14 +18,13 @@ body {
 .h1-underline {
   margin: 20px auto 25px auto;
     padding: 0;
-    max-width: 250px;
+    max-width: 200px;
     border-top: solid  5px;
     text-align: center;
     color: $soft-cyan;
 }
 
 .page-name {
-  text-transform: uppercase;
   font-weight: $bold;
 }
 
