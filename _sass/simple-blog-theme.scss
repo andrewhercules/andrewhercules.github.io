@@ -1,0 +1,17 @@
+// Variables
+@import 'base/variables';
+
+// Global styles
+@import 'base/global';
+
+// _includes styles
+@import '_includes/navigation';
+@import '_includes/tags';
+
+// _layouts styles
+@import '_layouts/home';
+@import '_layouts/post';
+
+// pages styles
+@import 'pages/portfolio';
+@import 'pages/contact';

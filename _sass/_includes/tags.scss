@@ -1,0 +1,21 @@
+div.individual-tag {
+  display: inline-block;
+  border: 1px solid $soft-cyan;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+p.tag-text {
+  margin: 0px;
+  font-size: 0.75em;
+}
+
+div.tags-section {
+  margin-bottom: 25px;
+}
+
+p.breadcrumb-nav {
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+* {
+  font-family: $font-family-main;
+  color: $default-font-colour;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  border-bottom: solid 10px $dark-blue;
+  padding-bottom: 50px;
+}
+
+.bg-blue {
+    background-color: $dark-blue;
+}
+
+.h1-underline {
+  margin: 20px auto 25px auto;
+    padding: 0;
+    max-width: 250px;
+    border-top: solid  5px;
+    text-align: center;
+    color: $soft-cyan;
+}
+
+.page-name {
+  text-transform: uppercase;
+  font-weight: $bold;
+}
+
+.page-text {
+  font-size: $default-font-size;
+}
+
+a,
+.external-link,
+.internal-link,
+.post-link
+{
+  color: $soft-cyan;
+}
+
+a:hover,
+.external-link:hover,
+.internal-link:hover,
+.post-link:hover
+{
+  color: $yellow;
+}
+
+
+.ico-link:hover {
+  color: $yellow;
+}

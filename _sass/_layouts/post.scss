@@ -1,0 +1,24 @@
+#post-nav {
+  border-bottom: 1px solid $dark-blue;
+  border-top: 1px solid $dark-blue;
+}
+
+.post-nav-post {
+  padding: 25px 10px;
+}
+
+.post-nav-post p {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  color: $very-dark-blue;
+  margin-bottom: 5px;
+}
+
+.post-nav-post a {
+  color: $soft-cyan;
+}
+
+#post-medium-link-text {
+  background-color: $soft-cyan;
+  padding: 10px 0px;
+}
