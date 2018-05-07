@@ -18,3 +18,11 @@ paginate_path: "/blog/page:num"
 
 # Plugins
 plugins: [jekyll-paginate]
+
+# Build Settings
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
