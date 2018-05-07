@@ -6,7 +6,7 @@ tags: [User Research, User Experience Design, Usability Testing, Service Design,
 img: assets/img/portfolio/bloom.png
 ---
 
-[Bloom](https://bloom.london.ac.uk/about) is a flexible, reliable, and customisable e-learning solution developed by the Software Services team at the University of London (UoL). More than 3 million users at 90+ colleges, universities, and education/training institutions use it to support and enhance their learning experience.
+<a href="https://bloom.london.ac.uk/about" target="_blank">Bloom</a> is a flexible, reliable, and customisable e-learning solution developed by the Software Services team at the University of London (UoL). More than 3 million users at 90+ colleges, universities, and education/training institutions use it to support and enhance their learning experience.
 
 In March 2016, I began working on a project to research and redesign the user experience and user interface. The goal of the project was to create an "out-of-the-box" service offering that meets the needs of all users - from students and lecturers to learning technologists and administrative staff.
 
