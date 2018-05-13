@@ -8,14 +8,29 @@ layout: default
       <div class="col-lg-12 text-center">
         <h1 class="page-name">{{ page.title }}</h1>
         <hr class="h1-underline">
-        <p id="post-date">{{ page.date | date: "%B %-d, %Y" }} | {% include read_time.html %}</p>
-        {% if page.medium-link %}
-          <p id="post-medium-link-text">This post is also available on
-            <a class="external-link" href="{{ page.medium-link }}" target="_blank">Medium</a>
-          </p>
-        {% endif %}
       </div>
     </div>
+    <div class="row tags-section">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <p id="post-date">{{ page.date | date: "%B %-d, %Y" }} | {% include read_time.html %}</p>
+          {% if page.medium-link %}
+            <p id="post-medium-link-text">This post is also available on
+              <a class="external-link" href="{{ page.medium-link }}" target="_blank">Medium</a>
+            </p>
+          {% endif %}
+          {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+          {% include tags.html tags=tag_list %}
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <img src="{{ page.header-img }}" class="post-header-img"/>
+      </div>
+    </div>
+
+
     <div class="row">
       <div class="col-lg-12">
         {{ content }}
