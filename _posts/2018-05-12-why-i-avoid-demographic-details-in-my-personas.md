@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I try and avoid demographic details in my personas
+title: Why I avoid demographic details in my personas
 tags: [User Research, Design Artefacts, Personas, Stakeholder Engagement]
 header-img: /assets/img/blog/computer-survey-charts.jpg
 header-img-source: https://www.pexels.com/photo/macbook-pro-beside-papers-669619/
@@ -11,7 +11,7 @@ medium-link:
 
 When I first started engaging with UX about seven years ago, I often built personas that had lengthy biographies and were full of demographic details. Perhaps it was the by-product of my previous stints in marketing where everything is driven by demographics. Or perhaps it was my due to my belief that rich and engaging personas were the *only* way to foster empathy and understanding with stakeholders.
 
-Luckily, I've changed that mindset. Lengthy biographies and demographic details have become the cornerstones for my creative writing projects. And unless the demographic details add specific value to a design artefacts, I avoid using them.
+Luckily, I've changed that mindset. Lengthy biographies and demographic details have become the cornerstones for my creative writing projects. And unless the demographic details add specific value to a design artefact, I avoid using them.
 
 Earlier today, I stumbled upon a really interesting [article from Indi Young about describing personas with demographic details](https://medium.com/@indiyoung/describing-personas-af992e3fc527) and the inherent problem with using demographic details.
 
@@ -27,7 +27,7 @@ When I asked the manager why they felt this way, they said it was because of the
 
 Similarly, the demographic details for the experienced hire persona proved to be just as problematic. At the beginning of the project, it was difficult to get some of the senior managers to empathise with the needs of experienced hires. And so I created a persona - Louise Warren, a 32 year-old woman who lives in Richmond and commutes to the office by train.
 
-For Louise, the core need for a flexible, anytime/anywhere training system was due to two key factors. First, her client commitments meant that she travelled around London and was often out of the office.. And secondly, during part of her commute, she had no mobile or WiFi signal and wanted to download and complete the modules offline.
+For Louise, the core need for a flexible, anytime/anywhere training system was due to two key factors. First, her client commitments meant that she travelled around London and was often out of the office. And secondly, during part of her commute, she had no mobile or Wi-Fi signal and wanted to download and complete the modules offline.
 
 Despite having listed other motivations driving Louise's needs, two of the senior managers said that the underlying reason for Louise requiring flexible training was due to her "family commitments". In the words of one of the managers, "she is probably a new mum with two children under the age of 4". The manager went on to argue that because Louise's job involves travel, she can't do the training during the day and has to care for her children and household at night.
 
@@ -37,11 +37,11 @@ In both cases, the actual user needs, pain points, and long-term goals were acce
 
 To overcome this issue, I decided to remove most of the demographic details when I created the [high-fidelity persona for the new graduate user](/assets/docs/portfolio/financial-services-training-app/financial_training_graduate_user_persona.pdf). Instead, I relied on iconography to better communicate insights rather than using a demographic detail that could be open to interpretation or misconstrued. For example, instead of listing a location, I included icons about travel patterns to demonstrate why some users wanted a flexible learning system with modules that could be downloaded and completed offline.
 
-I opted to keep the degree and school information in the persona as my analysis found that graduates from non-Russell Group universities were likely to complete the training sooner. This was motivated by their belief that  their degree would prevent them from landing a permanent contract at the end of their initial one-year graduate placement contract.
+I opted to keep the degree and school information in the persona as my analysis of existing employee data found that graduates from non-Russell Group universities were likely to complete the training sooner. This was motivated by their belief that their degree could prevent them from landing a permanent contract at the end of their initial one-year graduate placement contract.
 
-So what did this experience teach me?
+So what's my take-away message from this experience?
 
-Demographic details can be very helpful. Sometimes you need to include them.
+Demographic details can be very helpful. And yes, sometimes you need to include them.
 
 But if possible, try and use other data and insights to communicate the same idea, as suggested in Indi's article.
 
@@ -51,4 +51,4 @@ But if possible, try and use other data and insights to communicate the same ide
 
 Even the inclusion of what appears to be innocuous demographic details can result in key project stakeholders making assumptions that are grounded in their biases and stereotypes, not real data or insights. And it can be challenging to correct these biases after exposing them.
 
-And so while personas are still a great way to present insights, just be aware that demographic details can cause biases and stereotypes to bubble to the surface, which in turns negates the power of personas to foster empathy and understanding amongst stakeholders. 
+And while personas are still a great way to present insights, just be aware that demographic details can cause biases and stereotypes to bubble to the surface, which in turns negates the power of personas to foster empathy and understanding amongst stakeholders.
