@@ -3,7 +3,7 @@ layout: portfolio-item
 title: LSBU Research Open
 client: London South Bank University
 tags: [User Research, User Experience Design, User Interface Design, Axure RP, HTML, CSS, Bootstrap, JavaScript, Perl]
-img: assets/img/portfolio/lsbu_research_open.png
+img: assets/img/portfolio/lsbu-research-open.jpg
 ---
 
 In mid-2015, London South Bank University (LSBU) commenced a project to overhaul their publications repository, [LSBU Research Open](http://researchopen.lsbu.ac.uk/). The project was designed to improve the repository and integrate a third-party research system in time for changes to open access rules in April 2016.

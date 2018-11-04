@@ -3,7 +3,7 @@ layout: portfolio-item
 title: Financial Services Training App
 client: An established European financial services and advisory firm
 tags: [User Research, Data Analysis, User Experience Design, Digital Strategy, Axure RP, Adobe Creative Suite]
-img: assets/img/portfolio/financial-services-training-app.png
+img: assets/img/portfolio/financial-services-training-app.jpg
 ---
 
 In January 2017, an established European financial services and advisory firm conducted a review of the training programme offered to new employees. All new employees were expected to complete the training within two months of joining the company. While all new employees hired in 2015 completed the training, more than 60% completed it within two weeks of the two-month deadline. This presented a unique problem because new staff could not work on new or existing client accounts until the training was complete.

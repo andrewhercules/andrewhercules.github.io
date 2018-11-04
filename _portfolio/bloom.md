@@ -3,7 +3,7 @@ layout: portfolio-item
 title: UOL Bloom
 client: University of London
 tags: [User Research, User Experience Design, Usability Testing, Service Design, Brand Design, Digital Strategy, Content Marketing]
-img: assets/img/portfolio/bloom.png
+img: assets/img/portfolio/uol-bloom.jpg
 ---
 
 <a href="https://bloom.london.ac.uk/about" target="_blank">Bloom</a> is a flexible, reliable, and customisable e-learning solution developed by the Software Services team at the University of London (UoL). More than 3 million users at 90+ colleges, universities, and education/training institutions use it to support and enhance their learning experience.

@@ -3,7 +3,7 @@ layout: portfolio-item
 title: Data Repository Design
 client: University of London
 tags: [User Research, User Experience Design, User Interface Design, Axure RP, HTML, CSS, Bootstrap, JavaScript, Perl]
-img: assets/img/portfolio/data-repository-design.png
+img: assets/img/portfolio/bird-birkbeck-data-repo.png
 ---
 
 Organisations that provide research funding are increasingly demanding that funding recipients make their research outputs [open-access](https://en.wikipedia.org/wiki/Open_access). This requirement has lead to rapid growth in the demand for publications and data repositories.

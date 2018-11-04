@@ -3,7 +3,7 @@ layout: portfolio-item
 title: Fast-Add Manuscript System (FAMS)
 client: One of England's leading specialist training and research institutions
 tags: [User Research, User Experience Design, Axure RP, Digital Strategy, InDesign, Illustrator]
-img: assets/img/portfolio/fast-add-manuscript-system.png
+img: assets/img/portfolio/fast-add-manuscript-system.jpg
 ---
 
 In March 2016, I was assigned a research and strategy project that involved working with one of the leading specialist training institutions in England. The institution wanted to replace an existing system that research staff used to submit manuscripts for internal review prior to submitting the manuscript for publication in a journal.
