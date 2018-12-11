@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The one question that checks if you really understand your service or platform
+title: The one question that forces you to really understand your service or platform
 tags: [Insights, Digital Strategy, Digital Transformation, Stakeholder Management]
 header-img: /assets/img/blog/confused-child.jpg
 header-img-creator-name: Tumisu
