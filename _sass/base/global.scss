@@ -30,6 +30,7 @@ body {
 
 .page-text {
   font-size: $default-font-size;
+  font-weight: 500;
 }
 
 a,
@@ -38,6 +39,7 @@ a,
 .post-link
 {
   color: $soft-cyan;
+  font-weight:600;
 }
 
 a:hover,
