@@ -1,6 +1,6 @@
 #post-nav {
-  border-bottom: 1px solid $dark-blue;
-  border-top: 1px solid $dark-blue;
+  border-bottom: 1px solid $green;
+  border-top: 1px solid $green;
 }
 
 .post-nav-post {
@@ -10,16 +10,16 @@
 .post-nav-post p {
   font-size: 0.75em;
   text-transform: uppercase;
-  color: $very-dark-blue;
+  color: $dark-green;
   margin-bottom: 5px;
 }
 
 .post-nav-post a {
-  color: $soft-cyan;
+  color: $blue;
 }
 
 #post-medium-link-text {
-  background-color: $soft-cyan;
+  background-color: $blue;
   padding: 10px 0px;
 }
 

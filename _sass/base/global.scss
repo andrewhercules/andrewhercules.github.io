@@ -7,12 +7,12 @@
 
 body {
   min-height: 100vh;
-  border-bottom: solid 10px $dark-blue;
+  border-bottom: solid 10px $green;
   padding-bottom: 50px;
 }
 
 .bg-blue {
-    background-color: $dark-blue;
+    background-color: $green;
 }
 
 .h1-underline {
@@ -21,7 +21,7 @@ body {
     max-width: 200px;
     border-top: solid  5px;
     text-align: center;
-    color: $soft-cyan;
+    color: $blue;
 }
 
 .page-name {
@@ -33,7 +33,7 @@ a,
 .internal-link,
 .post-link
 {
-  color: $soft-cyan;
+  color: $blue;
   font-weight:600;
 }
 
@@ -42,5 +42,5 @@ a:hover,
 .internal-link:hover,
 .post-link:hover
 {
-  color: $yellow;
+  color: $blue;
 }
