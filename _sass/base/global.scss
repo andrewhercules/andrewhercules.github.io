@@ -1,6 +1,8 @@
 * {
-  font-family: $font-family-main;
+  font-family: $default-font-family;
   color: $default-font-colour;
+  font-weight: $default-font-weight;
+  font-size: $default-font-size;
   box-sizing: border-box;
   margin: 0;
 }
@@ -17,15 +19,15 @@ body {
 
 .h1-underline {
   margin: 20px auto 25px auto;
-    padding: 0;
-    max-width: 200px;
-    border-top: solid  5px;
-    text-align: center;
-    color: $blue;
+  padding: 0;
+  max-width: 200px;
+  border-top: solid  5px;
+  text-align: center;
+  color: $green;
 }
 
 .page-name {
-  font-weight: $bold;
+  font-weight: 500;
 }
 
 a,
@@ -34,7 +36,7 @@ a,
 .post-link
 {
   color: $blue;
-  font-weight:600;
+  font-weight:500;
 }
 
 a:hover,
