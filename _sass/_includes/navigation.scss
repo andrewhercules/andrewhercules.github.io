@@ -1,12 +1,16 @@
-header {
-  margin-bottom: 50px;
-}
-
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
+  color: $white;
 }
 
-.navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: $blue;
+  color: $white;
+  text-decoration: underline;
+}
+
+#ah-brand-logo {
+  font-weight: 400;
+  color: $white;
+  border: 3px solid $white;
+  padding: 3px 12px 5px 12px;
+  font-size: 1.25em;
 }
